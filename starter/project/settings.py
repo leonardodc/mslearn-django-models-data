@@ -31,14 +31,15 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    #[TODO] - Add the app to the list of INSTALLED_APPS
-    
+    # [TODO] - Add the app to the list of INSTALLED_APPS
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dog_shelters.apps.DogSheltersConfig',
 ]
 
 MIDDLEWARE = [
